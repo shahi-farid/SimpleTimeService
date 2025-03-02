@@ -1,5 +1,3 @@
-// Dockerfile 
-
 # Base image (OS)
 FROM node:18-alpine
 
