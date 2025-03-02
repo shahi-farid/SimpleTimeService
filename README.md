@@ -6,7 +6,7 @@ A simple Node.js microservice that returns the current timestamp and visitor's I
 
 ### 1. Clone the Repository
 ```sh
-git clone <repository_url>
+git clone https://github.com/shahi-farid/SimpleTimeService.git
 cd SimpleTimeService
 ```
 
