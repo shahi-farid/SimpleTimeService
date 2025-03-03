@@ -13,6 +13,10 @@ COPY . .
 # Run the build commands
 RUN npm install
 
+# Create a non-root user
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+
 # expose port 8000
 EXPOSE 8000
 
